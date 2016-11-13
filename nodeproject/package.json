@@ -6,7 +6,9 @@
   "author": "Mostafa Eweda <mo.eweda@gmail.com>",
   "dependencies": {
     "async": "~0.2.8",
+    "ejs": "^2.5.2",
     "express": "~4.13.4",
+    "mongodb": "^2.2.11",
     "socket.io": "~0.9.14"
   },
   "scripts": {
@@ -14,7 +16,9 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
     "gulp-jshint": "^2.0.2",
+    "gulp-nodemon": "^2.2.1",
     "jshint": "^2.9.4",
     "wiredep": "^4.0.0"
   },
